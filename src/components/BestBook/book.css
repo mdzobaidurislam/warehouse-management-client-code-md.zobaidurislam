@@ -1,0 +1,20 @@
+.book_section {
+    background: #1b232f;
+}
+
+.book_content h2 {
+    font-size: 39px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.book_content p {
+    font-size: 22px;
+    font-weight: 400;
+    margin: 30px 0;
+    color: #fff;
+}
+
+.book_btn {
+    border: 1px solid #ffcc00;
+}

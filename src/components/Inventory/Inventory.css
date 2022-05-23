@@ -1,0 +1,68 @@
+.inventory_section {
+    background: #F6F6F6;
+}
+
+.heading_title {
+    margin-bottom: 25px;
+}
+
+.heading_title span {
+    color: #ffcc00;
+}
+
+.item_warp {
+    position: relative;
+    overflow: hidden;
+}
+
+.item_thum {
+    overflow: hidden;
+    position: relative;
+}
+
+.item_thum img {
+    height: 217px;
+    width: 100%;
+}
+
+.item_warp .item_thum img {
+    transition: all .5s ease-in-out;
+}
+
+.item_warp:hover .item_thum img {
+    transform: scale(1.2);
+}
+
+.price {
+    position: absolute;
+    background: #ffcc00;
+    z-index: 111;
+    bottom: 0;
+    right: 0;
+    padding: 2px 36px;
+    color: #1b232f;
+    font-size: 28px;
+}
+
+/* // single  */
+.single_price span {
+    font-size: 40px;
+    font-weight: 600;
+    color: #ffcc00;
+    letter-spacing: 3px;
+}
+
+.restock button {
+    padding: 15px 25px;
+    border-radius: 0;
+    border: 1px solid #1b232f;
+    border-left-style: none;
+    outline: 0;
+}
+
+@media (max-width: 425px) {
+    .heading_title {
+        text-align: center;
+    }
+
+}

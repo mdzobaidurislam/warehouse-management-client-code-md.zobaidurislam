@@ -1,0 +1,20 @@
+.book_tell_section {
+    background-image: url("https://i.ibb.co/ZHdFZL5/book-bg.jpg");
+    position: relative;
+    background-attachment: scroll;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 0;
+}
+
+.content_tell h2 {
+    color: white;
+    font-size: 39px;
+}
+
+.content_tell p {
+    color: #fff;
+    line-height: 35px;
+    margin: 24px 0;
+}

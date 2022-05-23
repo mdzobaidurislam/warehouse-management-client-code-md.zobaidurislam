@@ -1,0 +1,83 @@
+.admin_section {
+    background: #f8f8f8;
+}
+
+.sidebar_nav {
+    min-height: 500px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 22px;
+    background: #fff
+}
+
+.sidebar_nav ul li {
+    text-align: center;
+}
+
+.sidebar_nav ul li a {
+    font-size: 32px;
+    color: #090807;
+    display: block;
+}
+
+/* content page  */
+.content_page {
+    margin: 10px;
+    padding: 20px;
+    border-radius: 20px;
+    background: #fff;
+}
+
+/* main navbar  */
+.man_navbar {
+    background: white;
+    width: max-content;
+    margin-top: 15px;
+}
+
+.man_navbar a {
+    display: inline-block;
+    padding: 20px;
+    background: #1b232f0d;
+    margin-right: 10px;
+    color: #1b232f;
+    font-weight: 700;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    box-shadow: 1px -1px 3px 0px #f3f3f4;
+}
+
+.man_navbar a.active {
+    background-color: #fff
+}
+
+.manage_btn span {
+    cursor: pointer;
+    margin: -1px;
+    border: 1px solid #ffcc00;
+}
+
+/* form  */
+
+.input_form input,
+.input_form textarea {
+    display: block;
+    width: 100%;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #1b232fa1;
+    border-radius: 1px;
+    box-shadow: none;
+    color: #1b232f;
+    font-size: 14px;
+    padding: 15px 12px;
+    height: 56px;
+}
+
+.input_form input:focus,
+.input_form textarea:focus {
+    background: #fbfdff;
+    border-color: #1b232fa1;
+    box-shadow: none;
+    outline: 0;
+}

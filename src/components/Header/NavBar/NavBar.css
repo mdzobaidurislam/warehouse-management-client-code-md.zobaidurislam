@@ -1,0 +1,83 @@
+.nav_bar {
+    background: #1B232F;
+}
+
+.logo a {
+    color: #fff;
+    padding: 20px;
+    display: inline-block;
+    line-height: 40px;
+    font-weight: 600;
+    font-size: 43px;
+}
+
+.logo a span {
+    color: #ffcc00;
+    font-size: 45px;
+    font-weight: 900;
+}
+
+.right_menu a {
+    color: #fff;
+    padding: 20px;
+    display: inline-block;
+    line-height: 40px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.log_btn {
+    background: #FFCC00;
+    color: #1b232f;
+}
+
+.right_menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bar_toggle {
+    color: #ffcc00;
+    display: none;
+    font-size: 32px;
+}
+
+.mobaile_menu {
+    position: fixed;
+    background: #1b232f;
+    left: 0;
+    z-index: 99;
+    width: 231px;
+    top: 0;
+    bottom: 0;
+    transition: all .5s;
+    transform: translateX(-100%);
+}
+
+.mobaile_menu.active {
+    transform: translateX(0px);
+
+}
+
+.mobaile_menu a {
+    display: block;
+    color: #ffcc00;
+    font-size: 28px;
+    padding: 11px;
+    transition: all .5s ease-in-out;
+}
+
+.mobaile_menu a:hover {
+    color: #c5c3c1;
+}
+
+@media (max-width: 768px) {
+    .bar_toggle {
+        display: block !important;
+    }
+
+    .menu {
+        display: none;
+    }
+}

@@ -1,0 +1,70 @@
+.login_form h1 {
+    font-size: 1.9rem;
+    color: #1b232f;
+}
+
+.login_form label {
+    color: #1b232f;
+    font-weight: 600;
+}
+
+.login_form .form_control {
+    display: block;
+    width: 100%;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #1b232fa1;
+    border-radius: 1px;
+    box-shadow: none;
+    color: #1b232f;
+    font-size: 14px;
+    padding: 15px 12px;
+    height: 56px;
+}
+
+.login_form .form_control:focus {
+    background: #fbfdff;
+    border-color: #1b232fa1;
+    box-shadow: none;
+    outline: 0;
+}
+
+.forgot_pass a {
+    color: #1b232f;
+    transition: all .5s;
+}
+
+.forgot_pass a:hover {
+    color: #FFCC00;
+}
+
+.form-check-input {
+    border: 1px solid #1b232f;
+}
+
+.login_form .form-check-input:focus {
+    border-color: #1b232f;
+    box-shadow: none;
+}
+
+.login_form .form-check-input:checked {
+    background-color: #ffcc00;
+    border-color: #fff;
+}
+
+/* social login */
+.social_login button {
+    background: transparent;
+    border: 2px solid #ffcc00;
+    border-radius: 46px;
+    font-size: 24px;
+}
+
+.social_login button:hover {
+    color: #fff;
+    border-color: #ffcc00;
+}
+
+.login_form textarea {
+    height: 150px !important;
+}

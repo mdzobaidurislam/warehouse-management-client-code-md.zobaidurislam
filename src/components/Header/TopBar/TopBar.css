@@ -1,0 +1,35 @@
+.top_bar {
+    padding: 10px;
+    background: #ffcc00;
+}
+
+.top_left {
+    text-align: left;
+}
+
+.top_left a,
+.top_right a {
+    display: inline-block;
+    margin-right: 20px;
+    color: #1b232f;
+}
+
+.top_left a span,
+.top_right a span {
+    margin-right: 4px;
+}
+
+.top_right span img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.top_right button {
+    border: none;
+    background: #fc0;
+    color: #1b232f;
+    font-size: 20px;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+}
